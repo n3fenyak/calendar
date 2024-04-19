@@ -1,0 +1,80 @@
+/* BEGIN (write your solution here) */
+@font-face {
+  font-family: Rubik;
+  font-weight: 400;
+  src: url("../assets/fonts/Rubik-Regular.woff2");
+}
+
+@font-face {
+  font-family: Rubik;
+  font-weight: 700;
+  src: url("../assets/fonts/Rubik-Bold.woff2");
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #e5e5e5;
+  font-family: Rubik, serif;
+  font-weight: 400;
+}
+
+.calendar {
+  width: 250px;
+  background-color: #1e1f25;
+  border-radius: 12px;
+  padding: 60px 60px 30px;
+}
+
+.calendar-header {
+  margin: 0 0 30px;
+  font-family: Rubik, serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.calendar-date {
+  width: 100%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 2;
+  border-bottom: solid 1px #313131;
+}
+
+td {
+  color: #ccc;
+  text-align: center;
+  margin: 0;
+  line-height: 2.15;
+}
+
+.rounded-green {
+  color: #fff;
+  background: #589c5f;
+  border-radius: 50%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-name {
+  margin: 5px 0 20px;
+  font-size: 14px;
+  color: #ccc;
+
+}
+
+.todo-time {
+  font-size: 10px;
+}
